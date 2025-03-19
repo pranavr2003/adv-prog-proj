@@ -181,7 +181,7 @@ int main() {
 
     Tag div("div", { {"class", "container"}, {"id", "main"} });
     Tag p("p", {}, "Hello, World!");
-    CmTag section("section", { {"class", "wrapper"}, {"style", "color: pink; background-color: yellow"} });
+    CmTag section("section", { {"class", "wrapper"}, {"style", "color: white; background-color: purple"} });
     section.enter();
     div.render();
     p.render();
